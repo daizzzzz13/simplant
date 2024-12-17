@@ -1,0 +1,39 @@
+name: hellogarden
+description: "A new Flutter project."
+publish_to: 'none' # Prevent accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.8.1
+  google_fonts: ^6.2.1
+  intl: ^0.20.0
+  carousel_slider: ^5.0.0
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  camera: ^0.11.0+2
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your assets here
+  assets:
+    - assets/images/logo.png
+    - assets/images/logo2.png
+    - assets/images/plant1.jpg
+    - assets/images/plant2.jpg
+    - assets/images/plant3.jpg
+    - assets/images/plant4.jpg
+    - assets/images/plant5.jpg
